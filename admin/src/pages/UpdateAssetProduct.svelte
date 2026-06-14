@@ -209,7 +209,7 @@
 										type="checkbox" 
 										class="form-check-input" 
 										id="is_visible" 
-										checked={assetDetails.isVisible ?? true} 
+										checked={assetDetails.isVisible ? assetDetails.isVisible : true} 
 									/>
 								</div>
                             </div>
